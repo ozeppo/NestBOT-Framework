@@ -9,15 +9,17 @@ const sampleCommand = {
         "format": "ping"      
     },
 
+    "language": null,
+
     // Code that's runs before command
-    _Initialize(msg){
-        
+    _Initialize(msg, language){
+        this.language = language;
     },
 
 
     // Main command code
     _Command(msg){
-        msg.channel.send("Pong!");
+        msg.channel.send(this.language.response);
     },
 }
 

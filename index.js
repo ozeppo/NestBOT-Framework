@@ -45,7 +45,7 @@ const NestBOT = {
 
             let message = msg.content.substring(this._BotParameters.configFile.config.prefix.length);
 
-            commandHandler.checkCommand(message, msg);
+            commandHandler.checkCommand(message, msg, this._BotParameters.languageFile);
 
         });
         

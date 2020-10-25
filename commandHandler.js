@@ -7,7 +7,7 @@ const commandHandler = {
         console.log("\x1b[36m","[NestBOT] Importing " + command.properties.name + ".");
     },
 
-    checkCommand(message, msg){
+    checkCommand(message, msg, language){
         this.commandsList.forEach(element => {
 
             let isAlias = false;
@@ -23,7 +23,7 @@ const commandHandler = {
             }
 
             if(isAlias){
-                element._Initialize(msg);
+                element._Initialize(msg, language.commands[element.properties.name]);
                 element._Command(msg);
             }
         });
