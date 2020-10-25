@@ -1,6 +1,6 @@
 {
   "name": "nestbot",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Small Dsicord.JS framework for buildings bots",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ozeppo/NestBOT-Framework/issues"
   },
-  "homepage": "https://github.com/ozeppo/NestBOT-Framework#readme"
+  "homepage": "https://github.com/ozeppo/NestBOT-Framework#readme",
+  "dependencies": {
+    "discord.js": "^12.4.0"
+  }
 }
