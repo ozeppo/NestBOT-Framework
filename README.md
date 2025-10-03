@@ -1,4 +1,6 @@
-# NestBOT-Framework
+# ⚠️ DISCONTINUED
+
+## NestBOT-Framework
 ### Discord.JS small Framework for buildings bots
 
 ## Framework discontinued, awaiting for complete rebuild
