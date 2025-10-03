@@ -1,9 +1,7 @@
-# ⚠️ DISCONTINUED
-
-## NestBOT-Framework
+# NestBOT-Framework
 ### Discord.JS small Framework for buildings bots
 
-## Framework discontinued, awaiting for complete rebuild
+## ⚠️ Framework discontinued, awaiting for complete rebuild
 
 #### Sample index file
 ```
